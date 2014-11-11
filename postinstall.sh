@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 
 git clone git@github.com:School-Improvement-Network/grunt-common.git grunt
 
