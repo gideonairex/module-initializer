@@ -2,10 +2,10 @@
 
 git submodule add git@github.com:School-Improvement-Network/grunt-common.git grunt
 
-ln -s ./node_modules/sinet-coding-convetion/.editorconfig .editorconfig
-ln -s ./node_modules/sinet-coding-convetion/.eslintrc .eslintrc
-ln -s ./node_modules/sinet-coding-convetion/.gitattributes .gitattributes
-ln -s ./node_modules/sinet-coding-convetion/.jscsrc .jscsrc
-ln -s ./node_modules/sinet-coding-convetion/.jshintrc .jshintrc
+ln -sf ./node_modules/sinet-coding-convetions/.editorconfig .editorconfig
+ln -sf ./node_modules/sinet-coding-convetions/.eslintrc .eslintrc
+ln -sf ./node_modules/sinet-coding-convetions/.gitattributes .gitattributes
+ln -sf ./node_modules/sinet-coding-convetions/.jscsrc .jscsrc
+ln -sf ./node_modules/sinet-coding-convetions/.jshintrc .jshintrc
 
-cp GruntFile.js .
+cp ./module-initializer/GruntFile.js .
